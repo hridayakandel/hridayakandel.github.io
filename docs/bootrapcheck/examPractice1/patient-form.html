@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>The SouthWest Regional Census</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/exam2.css">
+    <script src="./js/exam2.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-primary" style="background-color: red;">
+            <a class="navbar-brand" href="#">HolyCross Medical Center</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./exam-practice-2.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./patient-form.html">Patients</a>
+                    </li>
+                </ul>
+                <div>
+                    <span class="date">Welcome,Guest</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <h2>Census Form</h2>
+        <form id="censusForm" method="post">
+            <!-- Form row 1 Full name -->
+            <div class="row">
+                <div class="col">
+                    <label for="patientId">*Patient Id No:</label>
+                    <input type="text" class="form-control" id="patientId" placeholder="EP-XXX-XXXXXX or P-XXX-XXXXXX"
+                        pattern="E?P-\d{3}-\d{6}" required>
+                    <small id="nameHelp" class="form-text text-muted">Enter The Patient Id Numebr in teh Specified
+                        Format</small>
+                </div>
+            </div>
+            <!-- form row 2 ID and SSN -->
+            <div class="row">
+                <div class="col">
+                    <label for="fName">*First name:</label>
+                    <input type="text" class="form-control" id="fName" placeholder="Enter First Name" required>
+                    <small id="nameHelp" class="form-text text-muted">Enter The Patient First Name</small>
+                </div>
+                <div class="col">
+                    <label for="mName">Middle initial(s):</label>
+                    <input type="text" class="form-control" id="mName" placeholder="Enter Middle Inetial(s)">
+                </div>
+                <div class="col">
+                    <label for="lName">*Last Name:</label>
+                    <input type="text" class="form-control" id="lName" placeholder="Enter Last Name" required>
+                    <small id="nameHelp" class="form-text text-muted">Enter the patient's Last Name</small>
+                </div>
+            </div>
+            <!-- form last row selector and radio button -->
+            <div class="row">
+                <div class="col">
+                    <label for="dob">*Date of Birth:</label>
+                    <input type="date" class="form-control" id="dob" required>
+                    <small id="nameHelp" class="form-text text-muted">Enter Patient's Date of Birth</small>
+
+                </div>
+                <div class="col">
+                    *Department
+                    <select class="form-select form-select-lm mb-1" name="department" id="department" required>
+                        <option selected>Select one</option>
+                        <option value="1">Department 1</option>
+                        <option value="2">Department 2</option>
+                        <option value="3">Department 3</option>
+                    </select>
+
+                    <small id="nameHelp" class="form-text text-muted">Select respective department</small>
+                </div>
+                <div class="col">
+                    <div class="mb-1">
+                        <label for="seniorRadio" class="form-label">*Is this an Out-Ptient ?</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radio" id="radio-1" value="yes" required>
+                        <label class="form-check-label" for="radio-1">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radio" id="radio-2" value="no">
+                        <label class="form-check-label" for="radio-2">No</label>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- form buttom -->
+            <div class="col">
+                <div class="button">
+                    <button type="reset" class="btn btn-dark" value="reset" form="censusForm">Reset</button>
+                    <button type="submit" class="btn btn-danger" value="Submit" form="censusForm">Register
+                        Page</button>
+                </div>
+            </div>
+        </form>
+        <div class="row"></div>
+        <div class="col">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="" value="option1">
+                <label class="form-check-label" for="">first</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="" value="option2">
+                <label class="form-check-label" for="">second</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="" value="option3" disabled>
+                <label class="form-check-label" for="">disabled</label>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-primary">
+                <thead>
+                    <tr>
+                        <th scope="col">Column 1</th>
+                        <th scope="col">Column 2</th>
+                        <th scope="col">Column 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="">
+                        <td scope="row">R1C1</td>
+                        <td>R1C2</td>
+                        <td>R1C3</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Item</td>
+                        <td>Item</td>
+                        <td>Item</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-right">
+            <span>Hridaya Kandel ::: CS472-WAP</span>
+        </div>
+        <div class="footer-left">
+            <span> HMC &copy; NOV 2022</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

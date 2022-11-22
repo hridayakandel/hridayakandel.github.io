@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* setting up initial */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: aliceblue;
+}
+
+nav {
+    color: aliceblue;
+}
+
+.main {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 50px;
+
+}
+
+.navbar-brand {
+    margin-left: 10px;
+
+}
+
+.navbar a {
+    color: aliceblue;
+}
+
+ul.navbar, li.nav-item {
+    padding: 0 40px;
+    border-left: 1px solid wheat;
+}
+
+.date {
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(153, 193, 248);
+    height: 50px;
+}
+
+.homepageImage {
+    float: right;
+}
+
+footer div {
+    margin: auto 10px;
+}
+
+.col>.button {
+    float: right;
+}
+
+.row {
+    margin-top: 2em;
+}
+section .headrImage{
+    
+   width: 100%;
+}
+ul.address{
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}

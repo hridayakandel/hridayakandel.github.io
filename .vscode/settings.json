@@ -1,0 +1,9 @@
+{
+  "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+  "editor.trimAutoWhitespace": false,
+  "html.autoClosingTags": true,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}

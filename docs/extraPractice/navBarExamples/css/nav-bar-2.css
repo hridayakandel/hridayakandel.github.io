@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+li,a,button{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: rgb(60, 60, 60);
+    text-decoration: none;
+}
+header {
+    /*Creating Flex container*/
+    display: flex;
+    /* for header content and items to be flex type  */
+    /* justify-content: space-between;  */
+    justify-content: flex-start;
+    /* properties of flex */
+    /* Aligns flex items along the main axis of the current line of the flex container. */
+    align-items: center;
+    /*Aligns flex items along the cross axis of the current line of the flex container. */
+    padding: 10px 10%;
+   
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  /* margin-right: auto; */
+}
+nav{
+    /* margin-left: auto; */
+}
+.url_links li{
+  list-style: none;
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    border-left: 2px solid goldenrod;
+    background-color: wheat;
+    /* margin-right: auto; */
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover {
+    color: gold;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(20, 212, 255, 0.545);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: auto;
+}
+.contact{
+    margin-left: auto;
+}
+
+button:hover {
+    background-color: gold;
+    
+}
+.nav-bar{
+    background-color: wheat;
+}
+
+

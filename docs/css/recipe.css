@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+    background-image: url("../images/recipeImgs/silverware.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia,Garamond,sans-serif;
+}
+a{
+    color: #A4A400;
+}
+h1{
+    display: inline;
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    font-style: normal;
+    text-align: left;
+    text-decoration: underline;
+    letter-spacing: 0.25em;
+    
+    
+}
+h1.mainHeading{
+    display: block;
+    text-align: center;
+    font-size: 22pt;
+}
+
+ul {
+    list-style-image: url("../images/recipeImgs/pie_bullet.png");
+}
+blockquote{
+    background-color: #fcfc93;
+    font-style: italic;
+}
+
+pre.preFormattedText{
+    font-family:monospace;
+    text-align: right;
+}
+
+ul.noBullet{
+    list-style-type: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.validator{
+    text-align: right;
+}

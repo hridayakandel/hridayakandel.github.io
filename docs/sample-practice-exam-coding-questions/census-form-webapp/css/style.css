@@ -1,0 +1,14 @@
+/* style.css */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.table-section{
+    
+    max-width: 95vw;
+    margin: 0 auto;
+   
+}

@@ -1,0 +1,97 @@
+/* reset values */
+body {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1;
+}
+
+strong{
+    color: rgb(14, 177, 9);
+}
+h1,h2{
+    color: #05a6be;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 2vw;
+    font-weight: bolder;
+    
+}
+h1 {
+    font-size: 5vw;
+    font-weight: bolder;
+    color: #8458B3;
+
+}
+p.headerParagh {
+    text-align: center;
+}
+body{
+    background-color:rgb(254, 251, 251)
+}
+
+ul,ol{
+    font-family: 'Courier New', Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1vw;
+    font-weight:550;
+    color: #107896;
+    
+}
+p.mainPara{
+    color: rgb(38, 71, 114);
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+a.movieLink{
+    color: red;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+/*selector:pseudo-class {
+    property: value;
+}*/
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: darkgreen;
+}
+
+/* selector::pseudo-element {
+    property: value;
+} */
+
+p.mainPara::first-letter{
+    font-size: 1.5em;
+}
+
+/* selector1>selector2 {
+    properties
+}
+• Applies the given properties to selector2 only if it is direct child of selector1 (in the DOM) */
+
+dl>dt{
+    color: chocolate;
+}
+dl{
+    font-size: 1vw;
+}
+

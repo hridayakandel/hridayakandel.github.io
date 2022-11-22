@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+    max-height: 700px;
+}
+h1,h4{
+    display: block;
+    text-align: center;
+}
+
+span{
+    margin-top: 200px;
+    font-size: 80px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: center;
+}
